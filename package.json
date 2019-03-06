@@ -1,0 +1,14 @@
+{
+  "name": "esm-project",
+  "version": "1.0.0",
+  "description": "Node app using new esm module loader",
+  "main": "index.js",
+  "module": "main.js",
+  "repository": "https://github.com/flavioespinoza/esm-project.git",
+  "author": "flavioespinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "esm": "^3.2.11"
+  }
+}
