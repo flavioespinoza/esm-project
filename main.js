@@ -1,2 +1,3 @@
 // ESM syntax is supported.
-export {}
+export const a = 'a'
+export default 'default'
