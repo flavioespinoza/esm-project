@@ -1,4 +1,4 @@
-# ESM Project
+# esm-project
 
 Node app using new [esm](https://github.com/standard-things/esm) module loader
 
@@ -20,7 +20,7 @@ yarn add @flavioespinoza/ems-project
 
 npm
 ```shell
-npm i @flavioespinoza/log_log
+npm i @flavioespinoza/esm-project
 ```
 
 ### Enable 
@@ -39,5 +39,5 @@ yarn esm-loader
 yarn run esm-loader
 ```
 
-console output should look something like this
+Console output should look something like this
 <img src='img/esm-loader-console-log.png'>
