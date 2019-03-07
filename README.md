@@ -13,7 +13,7 @@ and [video](https://www.youtube.com/watch?v=JcZ-FzfDq8A#t=5) for details.
 
 ### Install
 
-yarn (recomended)
+yarn (recommended)
 ```shell
 yarn add @flavioespinoza/ems-project
 ```
