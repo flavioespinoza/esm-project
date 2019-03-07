@@ -1,27 +1,46 @@
 {
-    "name": "esm-project",
-    "version": "1.0.0",
-    "description": "Node app using new esm module loader",
-    "esm": true,
-    "main": "esm-loader.js",
-    "module": "index.js",
-    "scripts": {
-        "test": "node -r esm ./test.js",
-        "node": "node ./index.js",
-        "example": "node -r esm ./example.js",
-        "esm-loader": "node esm-loader.js",
-        "node-with-esm": "node -r esm ./index.js",
-        "node-with-esm:watch": "nodemon -r esm ./index.js"
-    },
-    "repository": "https://github.com/flavioespinoza/esm-project.git",
-    "author": "flavioespinoza <flavio.espinoza@gmail.com>",
-    "license": "MIT",
-    "private": false,
-    "dependencies": {
-        "@flavioespinoza/log_log": "^1.0.12",
-        "chance": "^1.0.18",
-        "esm": "^3.2.11",
-        "lodash": "^4.17.11",
-        "ololog": "^1.1.117"
-    }
+  "name": "@flavioespinoza/esm-project",
+  "version": "1.0.0",
+  "description": "Node app using new esm module loader by John-David Dalton <https://github.com/jdalton>",
+  "esm": true,
+  "main": "esm-loader.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "node -r esm ./test.js",
+    "node": "node ./index.js",
+    "example": "node -r esm ./example.js",
+    "esm-loader": "node esm-loader.js",
+    "node-with-esm": "node -r esm ./index.js",
+    "node-with-esm:watch": "nodemon -r esm ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/esm-project.git"
+  },
+  "keywords": [
+    "npm",
+    "esm",
+    "es",
+    "package",
+    "npm",
+    "package",
+    "node",
+    "module",
+    "module"
+  ],
+  "author": "flavioespinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@flavioespinoza/log_log": "^1.0.12",
+    "chance": "^1.0.18",
+    "esm": "^3.2.11",
+    "lodash": "^4.17.11",
+    "ololog": "^1.1.117"
+  },
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/esm-project/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/esm-project#readme",
+  "devDependencies": {}
 }
