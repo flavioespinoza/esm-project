@@ -1,3 +1,6 @@
-export function _error (method, err) {
-	console.log(`${method} ERROR:`, err.message)
+import log from 'ololog'
+const _error = (method, err) => {
+	log.lightYellow(`${method} ERROR:`, err.message)
 }
+
+export default _error
