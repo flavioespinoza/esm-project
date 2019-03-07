@@ -1,5 +1,5 @@
 
-# 1 ------- 
+# --- A -------------- 
 
 echo "
 
@@ -9,7 +9,7 @@ _log.alert('Hello Single Quotes! ;)')
 " > test.js
 
 
-# 2 ------- 
+# --- B -------------- 
 
 echo "
 
@@ -20,10 +20,9 @@ _log.alert('Hello Single Quotes! ;)')
 
 
 
-# 3 ------- 
+# --- C -------------- 
 
 echo "
-
 import { _log, log } from '@flavioespinoza/log_log'
 import _ from 'lodash'
 
@@ -36,5 +35,4 @@ _log.warn('timestamp now: ' + _timestamp())
 export {
     _timestamp
 }
-
 " > test.js
