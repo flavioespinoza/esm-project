@@ -2,7 +2,7 @@
 
 Node app using new [esm](https://github.com/standard-things/esm) module loader
 
-### Info
+## Info
 
 > This ES Module uses the new [esm](https://github.com/standard-things/esm) module loader by [John-David Dalton](https://github.com/jdalton)
 
@@ -11,7 +11,7 @@ Node app using new [esm](https://github.com/standard-things/esm) module loader
 and [video](https://www.youtube.com/watch?v=JcZ-FzfDq8A#t=5) for details.
 
 
-### Install
+## Install
 
 yarn (recommended)
 ```shell
@@ -23,14 +23,14 @@ npm
 npm i @flavioespinoza/esm-project
 ```
 
-### Enable 
+## Enable 
 
 Enable `esm` loader for local runs
 ```shell
 node -r esm esm-loader.js
 ```
 
-### Run
+## Run
 ```shell
 yarn esm-loader
 

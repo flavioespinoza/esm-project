@@ -1,6 +1,6 @@
 {
   "name": "@flavioespinoza/esm-project",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node app using new esm module loader by John-David Dalton <https://github.com/jdalton>",
   "esm": true,
   "main": "esm-loader.js",
