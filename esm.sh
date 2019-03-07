@@ -1,18 +1,40 @@
-echo 'import { join } from "path"; console.log(join("Hello", "Flavio"))' > main.js
 
-echo '
-import { _NowTimestamp } from "./test_router"
-import { join } from "path"
-const log = require("ololog")
-let a = "Hello"
-let b = "Color"
-log.lightCyan(join(a, b))
-log.lightYellow(_NowTimestamp())
-' > main.js
+# 1 ------- 
 
-echo '
-import _ from "lodash"
-export default function _NowTimestamp() {
+echo "
+
+import { _log, log } from '@flavioespinoza/log_log'
+_log.alert('Hello Single Quotes! ;)')
+
+" > test.js
+
+
+# 2 ------- 
+
+echo "
+
+import { _log, log } from '@flavioespinoza/log_log'
+_log.alert('Hello Single Quotes! ;)')
+
+" > test.js
+
+
+
+# 3 ------- 
+
+echo "
+
+import { _log, log } from '@flavioespinoza/log_log'
+import _ from 'lodash'
+
+const _timestamp = () => {
     return _.now()
 }
-' > test_router.js
+
+_log.warn('timestamp now: ' + _timestamp())
+
+export {
+    _timestamp
+}
+
+" > test.js
