@@ -1,14 +1,9 @@
-import _NowTimestamp from './test_router'
 import assert from 'assert'
-import _error from './error'
 import _ from 'lodash'
-import { join } from 'path'
-import { _log, log } from './_log'
+import { _log, log } from '@flavioespinoza/log_log'
 import { Chance } from 'chance'
 
 const chance = new Chance()
-
-const _ts = _NowTimestamp()
 
 const assertErrorInfo = err => {
     return {
@@ -44,4 +39,4 @@ const _check = async (a, b) => {
     console.log(await _check(str1, str2))
 })()
 
-export { _ts }
+export { _check }

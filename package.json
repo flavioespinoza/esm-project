@@ -9,6 +9,7 @@
     "license": "MIT",
     "private": false,
     "dependencies": {
+        "@flavioespinoza/log_log": "^1.0.12",
         "chance": "^1.0.18",
         "esm": "^3.2.11",
         "lodash": "^4.17.11",
