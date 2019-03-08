@@ -1,0 +1,30 @@
+{
+  "name": "esm-project",
+  "version": "1.0.5",
+  "description": "Node ES module using nnew esm module by John-David Dalton",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/esm-project.git"
+  },
+  "keywords": [
+    "esm",
+    "es6",
+    "module",
+    "node"
+  ],
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/esm-project/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/esm-project#readme",
+  "dependencies": {
+    "chance": "^1.0.18",
+    "esm": "3.0.84"
+  }
+}
