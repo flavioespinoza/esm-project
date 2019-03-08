@@ -1,6 +1,6 @@
+import Module from 'module'
 import assert from 'assert'
 import _ from 'lodash'
-import { _log, log } from '@flavioespinoza/log_log'
 import { Chance } from 'chance'
 
 const chance = new Chance()
@@ -35,10 +35,10 @@ const _check = async (a, b) => {
 ;(async function() {
     let str1 = 'Hello'
     let str2 = chance.first()
-    _log.info(str1)
-    _log.warn(str2)
-    console.log(await _check(str1, str1))
-    console.log(await _check(str1, str2))
+    // _log.info(str1)
+    // _log.warn(str2)
+    // console.log(await _check(str1, str1))
+    // console.log(await _check(str1, str2))
 })()
 
 export { _check }

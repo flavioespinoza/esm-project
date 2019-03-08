@@ -10,7 +10,9 @@
     "node": "node ./index.js",
     "example": "node -r esm ./example.js",
     "esm-loader": "node esm-loader.js",
+    "loader": "node esm-loader.js",
     "node-with-esm": "node -r esm ./index.js",
+    "idx": "node -r esm ./index.js",
     "node-with-esm:watch": "nodemon -r esm ./index.js"
   },
   "repository": {
@@ -35,7 +37,8 @@
     "chance": "^1.0.18",
     "esm": "^3.2.11",
     "lodash": "^4.17.11",
-    "ololog": "^1.1.117"
+    "ololog": "^1.1.117",
+    "require-inject": "^1.4.4"
   },
   "bugs": {
     "url": "https://github.com/flavioespinoza/esm-project/issues"
