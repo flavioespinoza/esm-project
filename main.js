@@ -1,6 +1,6 @@
 import assert from 'assert'
 import _ from 'lodash'
-import { _log, log } from '@flavioespinoza/log_log'
+import _log from '@flavioespinoza/log_log'
 import { Chance } from 'chance'
 
 const chance = new Chance()
@@ -51,8 +51,10 @@ const _check = (a, b) => {
 
 let str1 = 'Hello'
 let str2 = chance.first()
+
 _log.info(str1)
 _log.warn(str2)
+
 console.log(_check(str1, str1))
 console.log(_deepStrictEqual(str1, str1))
 
